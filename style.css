@@ -1,0 +1,45 @@
+.container{
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.background{
+    width: 100%;
+    display: block;
+}
+
+.message{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+
+    background: rgba(255,255,255,0.8);
+    padding: 20px;
+    border-radius: 10px;
+
+    color: deeppink;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.butterfly{
+    position: absolute;
+    width: 80px;
+}
+
+/* 蝶の位置 */
+.b1{
+    left: 180px;
+    top: 520px;
+}
+
+.b2{
+    left: 470px;
+    top: 480px;
+}
+
+.b3{
+    left: 690px;
+    top: 600px;
+}
